@@ -156,16 +156,16 @@ struct RgbColor
         float x, 
         float y);
 
-    uint32_t CalcTotalTenthMilliAmpere(const SettingsObject& settings)
-    {
-        auto total = 0;
-
-        total += R * settings.RedTenthMilliAmpere / 255;
-        total += G * settings.GreenTenthMilliAmpere / 255;
-        total += B * settings.BlueTenthMilliAmpere / 255;
-
-        return total;
-    }
+//     uint32_t CalcTotalTenthMilliAmpere(const SettingsObject& settings)
+//     {
+//         auto total = 0;
+// 
+//         total += R * settings.RedTenthMilliAmpere / 255;
+//         total += G * settings.GreenTenthMilliAmpere / 255;
+//         total += B * settings.BlueTenthMilliAmpere / 255;
+// 
+//         return total;
+//     }
 
     // ------------------------------------------------------------------------
     // Red, Green, Blue color members (0-255) where 

@@ -256,10 +256,10 @@ struct HtmlColor
         return Parse<T_HTMLCOLORNAMES>(name, MAX_HTML_COLOR_NAME_LEN + 1);
     }
 
-    template <typename T_HTMLCOLORNAMES> size_t Parse(String const &name)
-    { 
-        return Parse<T_HTMLCOLORNAMES>(name.c_str(), name.length() + 1);
-    }
+//     template <typename T_HTMLCOLORNAMES> size_t Parse(String const &name)
+//     { 
+//         return Parse<T_HTMLCOLORNAMES>(name.c_str(), name.length() + 1);
+//     }
 
     // ------------------------------------------------------------------------
     // Converts this color code to its HTML4/CSS3 name
